@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="guM-v2-uxE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qf8-N5-3v7" customClass="RJLineGraphView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="3B7-8u-ElW"/>
+                                            <constraint firstAttribute="width" constant="375" id="A3z-BF-Am0"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="GQ8-fA-mhc"/>
+                                        </constraints>
+                                    </view>
+                                    <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JtB-gp-XFU" customClass="RJLineGraphView">
+                                        <rect key="frame" x="0.0" y="210" width="375" height="200"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="hUh-yE-MwV"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5c-5h-jpf" customClass="RJLineGraphView">
+                                        <rect key="frame" x="10" y="420" width="355" height="200"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="CVf-mE-ap3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Z5c-5h-jpf" secondAttribute="bottom" id="1dw-6S-ZM3"/>
+                                    <constraint firstItem="Z5c-5h-jpf" firstAttribute="leading" secondItem="guM-v2-uxE" secondAttribute="leading" constant="10" id="29H-wG-5rD"/>
+                                    <constraint firstItem="JtB-gp-XFU" firstAttribute="leading" secondItem="guM-v2-uxE" secondAttribute="leading" id="37p-cR-b8H"/>
+                                    <constraint firstAttribute="trailing" secondItem="qf8-N5-3v7" secondAttribute="trailing" id="DWH-KH-ywy"/>
+                                    <constraint firstAttribute="trailing" secondItem="Z5c-5h-jpf" secondAttribute="trailing" constant="10" id="c28-pZ-uQT"/>
+                                    <constraint firstItem="Z5c-5h-jpf" firstAttribute="top" secondItem="JtB-gp-XFU" secondAttribute="bottom" constant="10" id="c3d-ff-9Wk"/>
+                                    <constraint firstItem="qf8-N5-3v7" firstAttribute="top" secondItem="guM-v2-uxE" secondAttribute="top" id="eap-Vb-B3Y"/>
+                                    <constraint firstItem="qf8-N5-3v7" firstAttribute="leading" secondItem="guM-v2-uxE" secondAttribute="leading" id="nhT-Nm-Sxc"/>
+                                    <constraint firstItem="JtB-gp-XFU" firstAttribute="top" secondItem="qf8-N5-3v7" secondAttribute="bottom" constant="10" id="wol-2y-pfC"/>
+                                    <constraint firstAttribute="trailing" secondItem="JtB-gp-XFU" secondAttribute="trailing" id="yRo-kz-sOq"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="guM-v2-uxE" secondAttribute="bottom" id="3yT-Aw-fy1"/>
+                            <constraint firstItem="guM-v2-uxE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="MMb-QB-LCd"/>
+                            <constraint firstItem="guM-v2-uxE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dfb-zL-4Ie"/>
+                            <constraint firstItem="guM-v2-uxE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eKE-sx-GbB"/>
+                            <constraint firstItem="guM-v2-uxE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="soH-gd-2dV"/>
+                            <constraint firstAttribute="trailing" secondItem="guM-v2-uxE" secondAttribute="trailing" id="w79-4l-ft4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentWidth" destination="A3z-BF-Am0" id="gkH-CA-FEi"/>
+                        <outlet property="graphView" destination="qf8-N5-3v7" id="rvu-ie-fyE"/>
+                        <outlet property="graphView1" destination="JtB-gp-XFU" id="89j-Pc-D9A"/>
+                        <outlet property="graphView2" destination="Z5c-5h-jpf" id="2DD-eh-e3F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="34.632683658170919"/>
+        </scene>
+    </scenes>
+</document>

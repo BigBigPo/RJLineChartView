@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE43A5631E70FE8B002DBD12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A5621E70FE8B002DBD12 /* main.m */; };
+		CE43A5661E70FE8B002DBD12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A5651E70FE8B002DBD12 /* AppDelegate.m */; };
+		CE43A5691E70FE8B002DBD12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A5681E70FE8B002DBD12 /* ViewController.m */; };
+		CE43A56C1E70FE8B002DBD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE43A56A1E70FE8B002DBD12 /* Main.storyboard */; };
+		CE43A56E1E70FE8B002DBD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE43A56D1E70FE8B002DBD12 /* Assets.xcassets */; };
+		CE43A5711E70FE8B002DBD12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE43A56F1E70FE8B002DBD12 /* LaunchScreen.storyboard */; };
+		CE43A5901E70FE95002DBD12 /* RJDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A57C1E70FE95002DBD12 /* RJDrawView.m */; };
+		CE43A5911E70FE95002DBD12 /* HorizonLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A57F1E70FE95002DBD12 /* HorizonLabelView.m */; };
+		CE43A5921E70FE95002DBD12 /* RJContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A5811E70FE95002DBD12 /* RJContentView.m */; };
+		CE43A5931E70FE95002DBD12 /* VerticalLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A5841E70FE95002DBD12 /* VerticalLabelView.m */; };
+		CE43A5941E70FE95002DBD12 /* RJLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A5871E70FE95002DBD12 /* RJLine.m */; };
+		CE43A5951E70FE95002DBD12 /* RJLineGraphHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A58A1E70FE95002DBD12 /* RJLineGraphHelper.m */; };
+		CE43A5961E70FE95002DBD12 /* RJLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A58C1E70FE95002DBD12 /* RJLineGraphView.m */; };
+		CE43A5971E70FE95002DBD12 /* RJLinePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A58F1E70FE95002DBD12 /* RJLinePoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE43A55E1E70FE8B002DBD12 /* RJLineGraphViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJLineGraphViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE43A5621E70FE8B002DBD12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE43A5641E70FE8B002DBD12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE43A5651E70FE8B002DBD12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE43A5671E70FE8B002DBD12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE43A5681E70FE8B002DBD12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE43A56B1E70FE8B002DBD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE43A56D1E70FE8B002DBD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE43A5701E70FE8B002DBD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE43A5721E70FE8B002DBD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE43A57B1E70FE95002DBD12 /* RJDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJDrawView.h; sourceTree = "<group>"; };
+		CE43A57C1E70FE95002DBD12 /* RJDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJDrawView.m; sourceTree = "<group>"; };
+		CE43A57E1E70FE95002DBD12 /* HorizonLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonLabelView.h; sourceTree = "<group>"; };
+		CE43A57F1E70FE95002DBD12 /* HorizonLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonLabelView.m; sourceTree = "<group>"; };
+		CE43A5801E70FE95002DBD12 /* RJContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJContentView.h; sourceTree = "<group>"; };
+		CE43A5811E70FE95002DBD12 /* RJContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJContentView.m; sourceTree = "<group>"; };
+		CE43A5831E70FE95002DBD12 /* VerticalLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalLabelView.h; sourceTree = "<group>"; };
+		CE43A5841E70FE95002DBD12 /* VerticalLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalLabelView.m; sourceTree = "<group>"; };
+		CE43A5861E70FE95002DBD12 /* RJLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJLine.h; sourceTree = "<group>"; };
+		CE43A5871E70FE95002DBD12 /* RJLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJLine.m; sourceTree = "<group>"; };
+		CE43A5881E70FE95002DBD12 /* RJLineGraphConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJLineGraphConst.h; sourceTree = "<group>"; };
+		CE43A5891E70FE95002DBD12 /* RJLineGraphHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJLineGraphHelper.h; sourceTree = "<group>"; };
+		CE43A58A1E70FE95002DBD12 /* RJLineGraphHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJLineGraphHelper.m; sourceTree = "<group>"; };
+		CE43A58B1E70FE95002DBD12 /* RJLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJLineGraphView.h; sourceTree = "<group>"; };
+		CE43A58C1E70FE95002DBD12 /* RJLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJLineGraphView.m; sourceTree = "<group>"; };
+		CE43A58E1E70FE95002DBD12 /* RJLinePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJLinePoint.h; sourceTree = "<group>"; };
+		CE43A58F1E70FE95002DBD12 /* RJLinePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJLinePoint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE43A55B1E70FE8B002DBD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE43A5551E70FE8B002DBD12 = {
+			isa = PBXGroup;
+			children = (
+				CE43A5601E70FE8B002DBD12 /* RJLineGraphViewExample */,
+				CE43A55F1E70FE8B002DBD12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE43A55F1E70FE8B002DBD12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE43A55E1E70FE8B002DBD12 /* RJLineGraphViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE43A5601E70FE8B002DBD12 /* RJLineGraphViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				CE43A5641E70FE8B002DBD12 /* AppDelegate.h */,
+				CE43A5651E70FE8B002DBD12 /* AppDelegate.m */,
+				CE43A5671E70FE8B002DBD12 /* ViewController.h */,
+				CE43A5681E70FE8B002DBD12 /* ViewController.m */,
+				CE43A5781E70FE95002DBD12 /* RJLineGraphView */,
+				CE43A56A1E70FE8B002DBD12 /* Main.storyboard */,
+				CE43A56D1E70FE8B002DBD12 /* Assets.xcassets */,
+				CE43A56F1E70FE8B002DBD12 /* LaunchScreen.storyboard */,
+				CE43A5721E70FE8B002DBD12 /* Info.plist */,
+				CE43A5611E70FE8B002DBD12 /* Supporting Files */,
+			);
+			path = RJLineGraphViewExample;
+			sourceTree = "<group>";
+		};
+		CE43A5611E70FE8B002DBD12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE43A5621E70FE8B002DBD12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE43A5781E70FE95002DBD12 /* RJLineGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				CE43A5881E70FE95002DBD12 /* RJLineGraphConst.h */,
+				CE43A58B1E70FE95002DBD12 /* RJLineGraphView.h */,
+				CE43A58C1E70FE95002DBD12 /* RJLineGraphView.m */,
+				CE43A5891E70FE95002DBD12 /* RJLineGraphHelper.h */,
+				CE43A58A1E70FE95002DBD12 /* RJLineGraphHelper.m */,
+				CE43A5791E70FE95002DBD12 /* RJContentView */,
+				CE43A58D1E70FE95002DBD12 /* RJLinePoint */,
+				CE43A5851E70FE95002DBD12 /* RJline */,
+			);
+			path = RJLineGraphView;
+			sourceTree = "<group>";
+		};
+		CE43A5791E70FE95002DBD12 /* RJContentView */ = {
+			isa = PBXGroup;
+			children = (
+				CE43A5801E70FE95002DBD12 /* RJContentView.h */,
+				CE43A5811E70FE95002DBD12 /* RJContentView.m */,
+				CE43A57A1E70FE95002DBD12 /* DrawView */,
+				CE43A57D1E70FE95002DBD12 /* HorizonLabelView */,
+				CE43A5821E70FE95002DBD12 /* VerticalLabelView */,
+			);
+			path = RJContentView;
+			sourceTree = "<group>";
+		};
+		CE43A57A1E70FE95002DBD12 /* DrawView */ = {
+			isa = PBXGroup;
+			children = (
+				CE43A57B1E70FE95002DBD12 /* RJDrawView.h */,
+				CE43A57C1E70FE95002DBD12 /* RJDrawView.m */,
+			);
+			path = DrawView;
+			sourceTree = "<group>";
+		};
+		CE43A57D1E70FE95002DBD12 /* HorizonLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				CE43A57E1E70FE95002DBD12 /* HorizonLabelView.h */,
+				CE43A57F1E70FE95002DBD12 /* HorizonLabelView.m */,
+			);
+			path = HorizonLabelView;
+			sourceTree = "<group>";
+		};
+		CE43A5821E70FE95002DBD12 /* VerticalLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				CE43A5831E70FE95002DBD12 /* VerticalLabelView.h */,
+				CE43A5841E70FE95002DBD12 /* VerticalLabelView.m */,
+			);
+			path = VerticalLabelView;
+			sourceTree = "<group>";
+		};
+		CE43A5851E70FE95002DBD12 /* RJline */ = {
+			isa = PBXGroup;
+			children = (
+				CE43A5861E70FE95002DBD12 /* RJLine.h */,
+				CE43A5871E70FE95002DBD12 /* RJLine.m */,
+			);
+			path = RJline;
+			sourceTree = "<group>";
+		};
+		CE43A58D1E70FE95002DBD12 /* RJLinePoint */ = {
+			isa = PBXGroup;
+			children = (
+				CE43A58E1E70FE95002DBD12 /* RJLinePoint.h */,
+				CE43A58F1E70FE95002DBD12 /* RJLinePoint.m */,
+			);
+			path = RJLinePoint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE43A55D1E70FE8B002DBD12 /* RJLineGraphViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE43A5751E70FE8B002DBD12 /* Build configuration list for PBXNativeTarget "RJLineGraphViewExample" */;
+			buildPhases = (
+				CE43A55A1E70FE8B002DBD12 /* Sources */,
+				CE43A55B1E70FE8B002DBD12 /* Frameworks */,
+				CE43A55C1E70FE8B002DBD12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RJLineGraphViewExample;
+			productName = RJLineGraphViewExample;
+			productReference = CE43A55E1E70FE8B002DBD12 /* RJLineGraphViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE43A5561E70FE8B002DBD12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Po;
+				TargetAttributes = {
+					CE43A55D1E70FE8B002DBD12 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L5768E6K27;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE43A5591E70FE8B002DBD12 /* Build configuration list for PBXProject "RJLineGraphViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE43A5551E70FE8B002DBD12;
+			productRefGroup = CE43A55F1E70FE8B002DBD12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE43A55D1E70FE8B002DBD12 /* RJLineGraphViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE43A55C1E70FE8B002DBD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE43A5711E70FE8B002DBD12 /* LaunchScreen.storyboard in Resources */,
+				CE43A56E1E70FE8B002DBD12 /* Assets.xcassets in Resources */,
+				CE43A56C1E70FE8B002DBD12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE43A55A1E70FE8B002DBD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE43A5971E70FE95002DBD12 /* RJLinePoint.m in Sources */,
+				CE43A5901E70FE95002DBD12 /* RJDrawView.m in Sources */,
+				CE43A5961E70FE95002DBD12 /* RJLineGraphView.m in Sources */,
+				CE43A5691E70FE8B002DBD12 /* ViewController.m in Sources */,
+				CE43A5921E70FE95002DBD12 /* RJContentView.m in Sources */,
+				CE43A5951E70FE95002DBD12 /* RJLineGraphHelper.m in Sources */,
+				CE43A5661E70FE8B002DBD12 /* AppDelegate.m in Sources */,
+				CE43A5631E70FE8B002DBD12 /* main.m in Sources */,
+				CE43A5931E70FE95002DBD12 /* VerticalLabelView.m in Sources */,
+				CE43A5911E70FE95002DBD12 /* HorizonLabelView.m in Sources */,
+				CE43A5941E70FE95002DBD12 /* RJLine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE43A56A1E70FE8B002DBD12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE43A56B1E70FE8B002DBD12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE43A56F1E70FE8B002DBD12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE43A5701E70FE8B002DBD12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE43A5731E70FE8B002DBD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE43A5741E70FE8B002DBD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE43A5761E70FE8B002DBD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L5768E6K27;
+				INFOPLIST_FILE = RJLineGraphViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LittlePo.RJLineGraphViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE43A5771E70FE8B002DBD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L5768E6K27;
+				INFOPLIST_FILE = RJLineGraphViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LittlePo.RJLineGraphViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE43A5591E70FE8B002DBD12 /* Build configuration list for PBXProject "RJLineGraphViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE43A5731E70FE8B002DBD12 /* Debug */,
+				CE43A5741E70FE8B002DBD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE43A5751E70FE8B002DBD12 /* Build configuration list for PBXNativeTarget "RJLineGraphViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE43A5761E70FE8B002DBD12 /* Debug */,
+				CE43A5771E70FE8B002DBD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE43A5561E70FE8B002DBD12 /* Project object */;
+}
