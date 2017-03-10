@@ -148,7 +148,8 @@
                        rjVerticalBorderColor,
                        rjHorizonBorderColor,
                        rjVerticalBackgroundColor,
-                       rjHorizonBackgroundColor
+                       rjHorizonBackgroundColor,
+                       rjVerticalTopMargin
                        ];
     for (NSString * key in [attribut allKeys]) {
         if ([keys indexOfObject:key] != NSNotFound) {
@@ -203,8 +204,9 @@
         NSInteger hLabelsCount = hLabels.count;
         CGFloat hInterval = [_helper.panelAttributDic[rjHorizonInterval] floatValue];
         CGFloat width = [_helper.panelAttributDic[rjVerticalWidth] floatValue] + hInterval * (hLabelsCount + 1);
+        CGFloat topMargin = [_helper.panelAttributDic[rjVerticalTopMargin] floatValue];
         
-        CGFloat height = [_helper.panelAttributDic[rjVerticalHeight] floatValue] + [_helper.panelAttributDic[rjHorizonHeight] floatValue] + 50;
+        CGFloat height = [_helper.panelAttributDic[rjVerticalHeight] floatValue] + [_helper.panelAttributDic[rjHorizonHeight] floatValue] + topMargin;
         _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
         [_scrollView setDelegate:self];
         [_scrollView setContentSize:CGSizeMake(width, height)];
@@ -255,7 +257,8 @@
                                                                    rjVerticalHeight:@200,
                                                                    rjVerticalWidth:@50,
                                                                    rjVerticalBorderColor:[UIColor grayColor],
-                                                                   rjHorizonBorderColor:[UIColor grayColor]
+                                                                   rjHorizonBorderColor:[UIColor grayColor],
+                                                                   rjVerticalTopMargin:@20
                                                                    }
                                                                    
                     ];

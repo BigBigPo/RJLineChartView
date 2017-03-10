@@ -112,7 +112,7 @@
     [_graphView1 addLineWithValue:@[@15,@100,@59,@80,@20,@73,@168,@111,@99,@200,@30,@50]
                         attributs:@{rjLineColor:[UIColor redColor]
                                     }];
-    [_graphView1 addLineWithValue:@[@35,@60,@50,@100,@90,@173,@150,@100,@89,@99,@100,@90]
+    [_graphView1 addLineWithValue:@[@50,@50,@50,@100,@90,@173,@150,@100,@89,@99,@100,@90]
                         attributs:@{rjLineColor:[UIColor magentaColor],
                                     rjLinePointBackColor:[UIColor redColor]
                                     }];

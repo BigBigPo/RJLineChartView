@@ -33,6 +33,7 @@ UIKIT_EXTERN NSString * const rjVerticalMinValue;                   //y轴最低
 UIKIT_EXTERN NSString * const rjVerticalMaxValue;                   //y轴最大值
 UIKIT_EXTERN NSString * const rjVerticalRankNum;                    //等级个数
 UIKIT_EXTERN NSString * const rjVerticalHeight;                     //y轴高度
+UIKIT_EXTERN NSString * const rjVerticalTopMargin;                  //y轴上边距（默认20）
 
 UIKIT_EXTERN NSString * const rjHorizontalLabelsTitle;              //水平个标签标题数组
 

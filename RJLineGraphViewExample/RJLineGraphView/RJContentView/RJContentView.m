@@ -80,7 +80,7 @@
         
         CGFloat yHeight = [_attributDic[rjVerticalHeight] floatValue];
         CGFloat xHeight = [_attributDic[rjHorizonHeight] floatValue];
-        _mainView.pixelSpace = yHeight - xHeight;
+        _mainView.pixelSpace = yHeight - xHeight + [_attributDic[rjVerticalTopMargin] floatValue];
         
         UIColor * backColor = _attributDic[rjBackGounrdColor];
         [_mainView setBackgroundColor:backColor];
@@ -186,6 +186,7 @@ NSString * const rjVerticalLabelFont    = @"rjVerticalLabelFont";               
 NSString * const rjVerticalLabelColor   = @"rjVerticalLabelColor";                 //y轴标签颜色
 NSString * const rjVerticalMinValue     = @"rjVerticalMinValue";                   //y轴最低值
 NSString * const rjVerticalMaxValue     = @"rjVerticalMaxValue";                   //y轴最高值
+NSString * const rjVerticalTopMargin    = @"rjVerticalTopMargin";                  //y轴上边距
 NSString * const rjVerticalRankNum      = @"rjVerticalRankNum";                    //等级个数 (包括最低和最高 >= 2)
 
 
